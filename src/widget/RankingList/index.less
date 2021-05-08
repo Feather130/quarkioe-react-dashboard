@@ -1,0 +1,36 @@
+.content {
+  padding: 14px 22px;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+.thead {
+  background: #294766;
+  color: #43edf8;
+  font-size: 20px;
+}
+
+.tbody {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.thead > tr > th {
+  padding: 8px;
+}
+
+.tbody > tr > td {
+  padding: 10px;
+  border-bottom: 1px solid #294766;
+}
+
+.tbody > tr {
+  &:last-child > td {
+    border-bottom: 0;
+  }
+}

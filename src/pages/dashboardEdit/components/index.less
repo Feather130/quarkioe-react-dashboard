@@ -1,0 +1,24 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.hover-handles {
+  :global(.react-resizable-handle) {
+    display: none;
+  }
+
+  &:hover :global(.react-resizable-handle) {
+    display: block;
+  }
+}
+
+.spin {
+  text-align: center;
+}
+
+.config {
+  display: flex;
+  justify-content: space-between;
+}
